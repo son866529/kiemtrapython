@@ -1,14 +1,14 @@
 A = [1,1,2,6,8,9,4,5,6,45,34,66,44,37,78]
 B = []
-print("Cac so nho hon 30 la: ")
+print("Các số nhỏ hơn 30 là: ")
 for x in A:
 	if x < 30:
 		print(x)
 		B.append(x)
 print(B)
-n = input("nhap n:")
+n = input("nhập n:")
 n = int(n)
-print("Cac so nho hon n la:")
+print("Các số nhỏ hơn n là:")
 for x in A:
 	if x > n:
 		print(x)

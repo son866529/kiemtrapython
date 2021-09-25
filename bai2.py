@@ -7,7 +7,7 @@ for x in A:
 			print(x)
 			C.append(x)
 
-print("List C sau khi luu tru cac so trung nhau ben list A,B: ",C)
+print("List C sau khi lưu trữ các số trùng bên list A,B: ",C)
 for x in C:
 	for s in B:
 		if x == s:
@@ -16,5 +16,5 @@ for x in C:
 	for s in A:
 		if x == s:
 			A.remove(s)
-print("List A sau khi xoa: ",A)
-print("List B sau khi xoa: ",B)
+print("List A sau khi xoá: ",A)
+print("List B sau khi xoá: ",B)
